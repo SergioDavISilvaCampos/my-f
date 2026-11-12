@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio de Sérgio Davi Silva Campos — estudante de Ciência da Computação e desenvolvedor web.">
+  <title>Sérgio Davi | Portfólio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container" aria-label="Navegação principal">
+      <a class="logo" href="#inicio">SD<span>.</span></a>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato" class="nav-cta">Contato <span>↗</span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="inicio">
+      <div class="hero-content">
+        <p class="eyebrow"><span class="status-dot"></span> DISPONÍVEL PARA OPORTUNIDADES</p>
+        <h1>Olá, eu sou<br><span class="gradient-text">Sérgio Davi.</span></h1>
+        <h2>Estudante de Ciência da Computação <span class="muted">|</span> Desenvolvedor Web</h2>
+        <p class="hero-description">Transformo ideias em experiências digitais funcionais, modernas e intuitivas. Estou sempre aprendendo e buscando novos desafios na tecnologia.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projetos">Ver projetos <span>↗</span></a>
+          <a class="button button-secondary" href="#contato">Fale comigo</a>
+        </div>
+        <div class="social-links">
+          <a href="https://github.com/SergioDavISilvaCampos" target="_blank" rel="noreferrer">GitHub ↗</a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-label="Ilustração abstrata de desenvolvimento">
+        <div class="orb orb-one"></div><div class="orb orb-two"></div>
+        <div class="code-card">
+          <div class="code-top"><i></i><i></i><i></i><span>developer.js</span></div>
+          <pre><code><span class="code-purple">const</span> developer = {
+  name: <span class="code-green">'Sérgio Davi'</span>,
+  area: <span class="code-green">'Tecnologia'</span>,
+  skills: [
+    <span class="code-green">'HTML'</span>,
+    <span class="code-green">'CSS'</span>,
+    <span class="code-green">'JavaScript'</span>
+  ],
+  mindset: <span class="code-green">'Sempre aprendendo'</span>
+};
+
+<span class="code-blue">developer</span>.buildFuture();<span class="cursor">▍</span></code></pre>
+        </div>
+        <div class="floating-tag tag-one"> &lt;/&gt; Código com propósito</div>
+        <div class="floating-tag tag-two">✦ Criatividade + Tecnologia</div>
+      </div>
+      <a class="scroll-hint" href="#sobre">ROLE PARA DESCOBRIR <span>↓</span></a>
+    </section>
+
+    <section class="section container" id="sobre">
+      <div class="section-heading"><p class="eyebrow">01 — QUEM SOU</p><h2>Sobre <span class="gradient-text">mim.</span></h2></div>
+      <div class="about-grid">
+        <div class="about-mark">SD<span>.</span></div>
+        <div class="about-copy">
+          <h3>Curioso por tecnologia. Movido por desafios.</h3>
+          <p>Sou estudante de Ciência da Computação na Unit e tenho interesse em desenvolvimento web e soluções tecnológicas. Gosto de aprender na prática, explorar ferramentas e transformar necessidades em projetos digitais.</p>
+          <p>Também tive experiência na área de TI e criação de sites na Vittarier, participando de atividades relacionadas à tecnologia e ao desenvolvimento web.</p>
+          <div class="facts">
+            <div><strong>01</strong><span>Aprendizado contínuo</span></div>
+            <div><strong>02</strong><span>Desenvolvimento web</span></div>
+            <div><strong>03</strong><span>Resolução de problemas</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="habilidades">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">02 — O QUE UTILIZO</p><h2>Minhas <span class="gradient-text">habilidades.</span></h2><p class="section-intro">Tecnologias e conhecimentos que venho desenvolvendo durante minha jornada.</p></div>
+        <div class="skills-grid">
+          <article class="skill-card"><span class="skill-icon">HTML</span><h3>HTML5</h3><p>Estruturação de páginas e conteúdo para a web.</p></article>
+          <article class="skill-card"><span class="skill-icon">CSS</span><h3>CSS3</h3><p>Estilização, layouts responsivos e interfaces.</p></article>
+          <article class="skill-card"><span class="skill-icon">JS</span><h3>JavaScript</h3><p>Interatividade e funcionalidades para páginas.</p></article>
+          <article class="skill-card"><span class="skill-icon">SQL</span><h3>SQL</h3><p>Consultas e fundamentos de bancos de dados.</p></article>
+          <article class="skill-card"><span class="skill-icon">⌘</span><h3>Linux</h3><p>Conhecimentos de sistemas e ambiente Linux.</p></article>
+          <article class="skill-card"><span class="skill-icon">⚙</span><h3>Git & GitHub</h3><p>Versionamento e organização de projetos.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="projetos">
+      <div class="section-heading"><p class="eyebrow">03 — NA PRÁTICA</p><h2>Projetos em <span class="gradient-text">destaque.</span></h2><p class="section-intro">Alguns trabalhos e estudos que representam minha evolução. Adicione os links reais quando publicar seus projetos.</p></div>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-preview preview-dashboard"><div class="mini-sidebar"></div><div class="mini-content"><span></span><span></span><div></div><div></div></div><b>01 / DASHBOARD</b></div>
+          <div class="project-info"><p class="project-type">INTERFACE WEB</p><h3>Painel administrativo</h3><p>Estudo de interface para um painel administrativo, com foco em organização visual e navegação.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></div>
+        </article>
+        <article class="project-card">
+          <div class="project-preview preview-tasks"><div class="task-window"><div class="task-title">Minhas tarefas <span>＋</span></div><div class="task-line">✓ Organizar atividades</div><div class="task-line">✓ Estudar JavaScript</div><div class="task-line">○ Criar novo projeto</div></div><b>02 / PRODUCTIVITY</b></div>
+          <div class="project-info"><p class="project-type">APLICAÇÃO WEB</p><h3>Lista de tarefas</h3><p>Aplicação para organizar tarefas, praticando manipulação do DOM e eventos com JavaScript.</p><div class="tags"><span>JavaScript</span><span>CSS</span><span>HTML</span></div></div>
+        </article>
+        <article class="project-card">
+          <div class="project-preview preview-health"><div class="health-window"><span>attento.</span><strong>Saúde integral</strong><small>Relatórios e informações</small><div class="health-bars"><i></i><i></i><i></i></div></div><b>03 / HEALTH TECH</b></div>
+          <div class="project-info"><p class="project-type">PROJETO DE INTERFACE</p><h3>Attento Saúde Integral</h3><p>Desenvolvimento de páginas e componentes para uma interface voltada à área da saúde.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contato">
+      <div class="container contact-content">
+        <p class="eyebrow">04 — VAMOS CONVERSAR?</p>
+        <h2>Tem uma ideia?<br><span class="gradient-text">Vamos construir.</span></h2>
+        <p>Estou aberto a trocar conhecimentos, colaborar em projetos e conhecer novas oportunidades na área de tecnologia.</p>
+        <a class="button button-primary" href="mailto:sergiodavicampos@gmail.com">Enviar e-mail <span>↗</span></a>
+        <p class="contact-note">Contato profissional.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner"><a class="logo" href="#inicio">SD<span>.</span></a><p>© <span id="year"></span> Sérgio Davi Silva Campos. Feito com dedicação.</p><a href="#inicio">Voltar ao topo ↑</a></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
